@@ -18,7 +18,7 @@ qulacs = "^0.6.2"
 kaleido = "0.2.1"
 distributed = "^2023.10.0"
 bokeh = "^3.3.0"
-qrisp = "^0.3.0"
+qrisp = "^0.5.4"
 plotly = "^5.18.0"
 jax = "^0.4.25"
 jaxlib = "^0.4.25"
@@ -55,3 +55,5 @@ project_version = "0.18.4"
 
 [tool.isort]
 profile = "black"
+[tool.kedro_telemetry]
+project_id = "f71f411d60de4f62bb611e5bcc4830d6"
