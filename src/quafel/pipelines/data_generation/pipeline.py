@@ -50,7 +50,10 @@ def create_pipeline(partitions, existing_circuits, existing_measures, **kwargs) 
                 },
             ),
         ],
-        outputs={"evaluation_partitions": "evaluation_partitions"},
+        outputs={
+            "evaluation_partitions": "evaluation_partitions",
+            "evaluation_matrix": "evaluation_matrix",
+        },
     )
 
     pl_generate_qasm_circuits = pipeline(
