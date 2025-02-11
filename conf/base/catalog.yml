@@ -1,5 +1,5 @@
 # Evaluation matrix
-data_generation.evaluation_matrix:
+evaluation_matrix:
   type: json.JSONDataSet
   filepath: data/01_raw/dataset.json
   versioned: true

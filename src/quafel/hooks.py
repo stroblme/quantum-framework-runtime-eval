@@ -123,9 +123,7 @@ class PipelineHooks:
             try:
                 # get the evaluation matrix where information about
                 # all the possible combinations is stored
-                evaluation_matrix = (
-                    catalog.datasets.data_generation__evaluation_matrix.load()
-                )
+                evaluation_matrix = catalog.datasets.evaluation_matrix.load()
             except Exception as e:
                 log.exception(e)
                 return
